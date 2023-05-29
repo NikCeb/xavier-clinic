@@ -1,0 +1,203 @@
+2023-05-18 11:26:44,530 DEBUG cd frappe-bench && python3 -m venv env
+2023-05-18 11:26:47,780 DEBUG cd frappe-bench && /home/adminuser/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2023-05-18 11:26:49,879 DEBUG cd frappe-bench && /home/adminuser/frappe-bench/env/bin/python -m pip install --quiet wheel
+2023-05-18 11:26:51,594 LOG Getting frappe
+2023-05-18 11:26:51,594 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-14 --depth 1 --origin upstream
+2023-05-18 11:26:55,855 LOG Installing frappe
+2023-05-18 11:26:55,856 DEBUG cd /home/adminuser/frappe-bench && /home/adminuser/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/adminuser/frappe-bench/apps/frappe 
+2023-05-18 11:27:39,147 DEBUG cd /home/adminuser/frappe-bench/apps/frappe && yarn install
+2023-05-18 11:27:53,938 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-05-18 11:27:53,939 DEBUG cd frappe-bench && bench build
+2023-05-18 11:27:54,053 INFO /usr/local/bin/bench build
+2023-05-18 11:28:19,834 LOG setting up backups
+2023-05-18 11:28:19,838 LOG backups were set up
+2023-05-18 11:28:19,838 INFO Bench frappe-bench initialized
+2023-05-18 11:28:39,200 INFO /usr/local/bin/bench new-site school-clinic.com
+2023-05-18 11:29:30,244 INFO /usr/local/bin/bench new-site school-clinic.com
+2023-05-18 11:29:50,633 INFO /usr/local/bin/bench drop-site school-clinic.com
+2023-05-18 11:30:05,192 INFO /usr/local/bin/bench drop-site school-clinic.com --no-backup
+2023-05-18 11:30:28,812 INFO /usr/local/bin/bench new-site school-clinic.com
+2023-05-18 11:31:45,575 INFO /usr/local/bin/bench use school-clinic.com
+2023-05-18 11:32:09,834 INFO /usr/local/bin/bench get-app https://github.com/Si-Nikolai/erpnext --branch version-14
+2023-05-18 11:32:09,841 LOG Getting erpnext
+2023-05-18 11:32:09,841 DEBUG cd ./apps && git clone https://github.com/Si-Nikolai/erpnext --branch version-14 --depth 1 --origin upstream
+2023-05-18 11:32:16,602 LOG Installing erpnext
+2023-05-18 11:32:16,719 DEBUG cd /home/adminuser/frappe-bench && /home/adminuser/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/adminuser/frappe-bench/apps/erpnext 
+2023-05-18 11:32:23,737 DEBUG cd /home/adminuser/frappe-bench/apps/erpnext && yarn install
+2023-05-18 11:32:24,338 DEBUG bench build --app erpnext
+2023-05-18 11:32:24,444 INFO /usr/local/bin/bench build --app erpnext
+2023-05-18 11:32:31,564 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-05-18 11:35:39,393 INFO /usr/local/bin/bench get-app https://github.com/Si-Nikolai/healthcare --branch version-14
+2023-05-18 11:35:39,402 LOG Getting healthcare
+2023-05-18 11:35:39,402 DEBUG cd ./apps && git clone https://github.com/Si-Nikolai/healthcare --branch version-14 --depth 1 --origin upstream
+2023-05-18 11:35:41,141 LOG Installing healthcare
+2023-05-18 11:35:41,289 DEBUG cd /home/adminuser/frappe-bench && /home/adminuser/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/adminuser/frappe-bench/apps/healthcare 
+2023-05-18 11:35:45,701 DEBUG bench build --app healthcare
+2023-05-18 11:35:45,808 INFO /usr/local/bin/bench build --app healthcare
+2023-05-18 11:35:51,126 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-05-18 11:36:04,787 INFO /usr/local/bin/bench start
+2023-05-18 11:36:05,324 INFO /usr/local/bin/bench watch
+2023-05-18 11:36:05,478 INFO /usr/local/bin/bench worker
+2023-05-18 11:36:05,497 INFO /usr/local/bin/bench serve --port 8000
+2023-05-18 11:36:05,526 INFO /usr/local/bin/bench schedule
+2023-05-18 11:38:51,292 INFO /usr/local/bin/bench --site school-clinic.com install-app erpnext
+2023-05-18 11:39:04,577 INFO /usr/local/bin/bench --site school-clinic reinstall
+2023-05-18 11:39:12,045 INFO /usr/local/bin/bench --site school-clinic.com reinstall
+2023-05-18 11:40:30,737 INFO /usr/local/bin/bench --site school-clinic.com install-app erpnext
+2023-05-18 11:41:52,243 INFO /usr/local/bin/bench --site school-clinic.com install-app healthcare
+2023-05-18 11:44:21,267 INFO /usr/local/bin/bench uninstall-app healthcare --no-backup
+2023-05-18 11:45:07,318 INFO /usr/local/bin/bench uninstall-app healthcare --no-backup --force
+2023-05-18 11:45:17,893 INFO /usr/local/bin/bench uninstall-app healthcare --no-backup --force
+2023-05-18 11:46:54,982 INFO /usr/local/bin/bench get-app https://github.com/frappe/health --branch version-14
+2023-05-18 11:46:54,989 LOG Getting health
+2023-05-18 11:46:54,989 DEBUG cd ./apps && git clone https://github.com/frappe/health --branch version-14 --depth 1 --origin upstream
+2023-05-18 11:46:56,939 WARNING /usr/local/bin/bench get-app https://github.com/frappe/health --branch version-14 executed with exit code 1
+2023-05-18 11:47:47,631 INFO /usr/local/bin/bench get-app healthcare --branch version-14
+2023-05-18 11:47:49,010 INFO App moved from apps/healthcare to archived/apps/healthcare-2023-05-18
+2023-05-18 11:47:49,013 LOG Getting healthcare
+2023-05-18 11:47:49,013 DEBUG cd ./apps && git clone https://github.com/Si-Nikolai/healthcare.git --branch version-14 --depth 1 --origin upstream
+2023-05-18 11:47:50,227 LOG Installing healthcare
+2023-05-18 11:47:50,376 DEBUG cd /home/adminuser/frappe-bench && /home/adminuser/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/adminuser/frappe-bench/apps/healthcare 
+2023-05-18 11:47:54,459 DEBUG bench build --app healthcare
+2023-05-18 11:47:54,567 INFO /usr/local/bin/bench build --app healthcare
+2023-05-18 11:47:55,429 WARNING bench build --app healthcare executed with exit code 1
+2023-05-18 11:47:55,430 WARNING /usr/local/bin/bench get-app healthcare --branch version-14 executed with exit code 1
+2023-05-18 11:48:21,585 INFO /usr/local/bin/bench get-app healthcare --branch version-14
+2023-05-18 11:48:22,168 LOG Getting healthcare
+2023-05-18 11:48:22,168 DEBUG cd ./apps && git clone https://github.com/frappe/healthcare.git --branch version-14 --depth 1 --origin upstream
+2023-05-18 11:48:23,530 LOG Installing healthcare
+2023-05-18 11:48:23,679 DEBUG cd /home/adminuser/frappe-bench && /home/adminuser/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/adminuser/frappe-bench/apps/healthcare 
+2023-05-18 11:48:29,133 DEBUG bench build --app healthcare
+2023-05-18 11:48:29,241 INFO /usr/local/bin/bench build --app healthcare
+2023-05-18 11:48:34,446 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-05-18 11:48:43,774 INFO /usr/local/bin/bench --site school-clinic.com install-app healthcare
+2023-05-18 11:48:49,466 INFO /usr/local/bin/bench start
+2023-05-18 11:48:50,108 INFO /usr/local/bin/bench watch
+2023-05-18 11:48:50,126 INFO /usr/local/bin/bench worker
+2023-05-18 11:48:50,129 INFO /usr/local/bin/bench serve --port 8000
+2023-05-18 11:48:50,162 INFO /usr/local/bin/bench schedule
+2023-05-18 11:51:43,559 INFO /usr/local/bin/bench reinstall-site school-clinic.com
+2023-05-18 11:52:42,958 INFO /usr/local/bin/bench reinstall school-clinic.com
+2023-05-18 11:54:00,970 INFO /usr/local/bin/bench new-site school-clinic.com
+2023-05-18 11:54:14,211 INFO /usr/local/bin/bench drop-site school-clinic.com --no-backup --force
+2023-05-18 11:54:39,138 INFO /usr/local/bin/bench new-site school-clinic.com
+2023-05-18 11:54:53,812 INFO /usr/local/bin/bench get-app erpnext --branch version-14
+2023-05-18 11:54:54,410 LOG Getting erpnext
+2023-05-18 11:54:54,411 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-14 --depth 1 --origin upstream
+2023-05-18 11:55:00,552 LOG Installing erpnext
+2023-05-18 11:55:00,700 DEBUG cd /home/adminuser/frappe-bench && /home/adminuser/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/adminuser/frappe-bench/apps/erpnext 
+2023-05-18 11:55:03,550 DEBUG cd /home/adminuser/frappe-bench/apps/erpnext && yarn install
+2023-05-18 11:55:04,126 DEBUG bench build --app erpnext
+2023-05-18 11:55:04,236 INFO /usr/local/bin/bench build --app erpnext
+2023-05-18 11:55:11,481 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-05-18 11:55:13,444 INFO /usr/local/bin/bench new-site school-clinic.com
+2023-05-18 11:56:15,922 INFO /usr/local/bin/bench --site school-clinic.com install-app erpnext
+2023-05-18 12:00:01,214 INFO /usr/local/bin/bench --verbose --site all backup
+2023-05-18 12:35:11,221 INFO /usr/local/bin/bench --site school-clinic.com install-app healthcare
+2023-05-18 12:49:14,800 INFO /usr/local/bin/bench start
+2023-05-18 12:49:15,379 INFO /usr/local/bin/bench watch
+2023-05-18 12:49:15,454 INFO /usr/local/bin/bench schedule
+2023-05-18 12:49:15,456 INFO /usr/local/bin/bench worker
+2023-05-18 12:49:15,510 INFO /usr/local/bin/bench serve --port 8000
+2023-05-18 13:02:17,621 INFO /usr/local/bin/bench start
+2023-05-18 13:02:18,229 INFO /usr/local/bin/bench serve --port 8000
+2023-05-18 13:02:18,236 INFO /usr/local/bin/bench worker
+2023-05-18 13:02:18,277 INFO /usr/local/bin/bench watch
+2023-05-18 13:02:18,303 INFO /usr/local/bin/bench schedule
+2023-05-18 13:24:47,651 INFO /usr/local/bin/bench set-config -g developer_mode 1
+2023-05-18 13:24:49,704 INFO /usr/local/bin/bench start
+2023-05-18 13:24:50,325 INFO /usr/local/bin/bench schedule
+2023-05-18 13:24:50,346 INFO /usr/local/bin/bench serve --port 8000
+2023-05-18 13:24:50,369 INFO /usr/local/bin/bench worker
+2023-05-18 13:24:50,405 INFO /usr/local/bin/bench watch
+2023-05-18 18:00:01,208 INFO /usr/local/bin/bench --verbose --site all backup
+2023-05-18 18:12:35,045 INFO /usr/local/bin/bench start
+2023-05-18 18:12:35,650 INFO /usr/local/bin/bench worker
+2023-05-18 18:12:35,651 INFO /usr/local/bin/bench schedule
+2023-05-18 18:12:35,701 INFO /usr/local/bin/bench watch
+2023-05-18 18:12:35,729 INFO /usr/local/bin/bench serve --port 8000
+2023-05-18 18:50:48,248 INFO /usr/local/bin/bench start
+2023-05-18 18:50:48,839 INFO /usr/local/bin/bench schedule
+2023-05-18 18:50:48,924 INFO /usr/local/bin/bench watch
+2023-05-18 18:50:48,928 INFO /usr/local/bin/bench serve --port 8000
+2023-05-18 18:50:48,990 INFO /usr/local/bin/bench worker
+2023-05-19 00:00:01,325 INFO /usr/local/bin/bench --verbose --site all backup
+2023-05-19 06:00:01,352 INFO /usr/local/bin/bench --verbose --site all backup
+2023-05-19 12:00:01,427 INFO /usr/local/bin/bench --verbose --site all backup
+2023-05-19 13:54:43,265 INFO /usr/local/bin/bench restart
+2023-05-19 13:54:43,271 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-05-19 13:54:48,054 INFO /usr/local/bin/bench start
+2023-05-19 13:54:49,544 INFO /usr/local/bin/bench start
+2023-05-19 18:00:01,357 INFO /usr/local/bin/bench --verbose --site all backup
+2023-05-20 00:00:01,378 INFO /usr/local/bin/bench --verbose --site all backup
+2023-05-20 06:00:01,266 INFO /usr/local/bin/bench --verbose --site all backup
+2023-05-20 12:00:02,109 INFO /usr/local/bin/bench --verbose --site all backup
+2023-05-20 18:00:02,062 INFO /usr/local/bin/bench --verbose --site all backup
+2023-05-21 00:00:02,079 INFO /usr/local/bin/bench --verbose --site all backup
+2023-05-21 06:00:02,080 INFO /usr/local/bin/bench --verbose --site all backup
+2023-05-21 12:00:01,949 INFO /usr/local/bin/bench --verbose --site all backup
+2023-05-21 18:00:01,885 INFO /usr/local/bin/bench --verbose --site all backup
+2023-05-21 22:49:06,970 INFO /usr/local/bin/bench start
+2023-05-21 22:49:07,595 INFO /usr/local/bin/bench serve --port 8000
+2023-05-21 22:49:07,606 INFO /usr/local/bin/bench schedule
+2023-05-21 22:49:07,712 INFO /usr/local/bin/bench watch
+2023-05-21 22:49:07,802 INFO /usr/local/bin/bench worker
+2023-05-22 00:00:01,846 INFO /usr/local/bin/bench --verbose --site all backup
+2023-05-22 06:00:01,158 INFO /usr/local/bin/bench --verbose --site all backup
+2023-05-22 12:00:02,075 INFO /usr/local/bin/bench --verbose --site all backup
+2023-05-22 16:16:44,452 INFO /usr/local/bin/bench start
+2023-05-22 16:16:45,076 INFO /usr/local/bin/bench serve --port 8000
+2023-05-22 16:16:45,100 INFO /usr/local/bin/bench watch
+2023-05-22 16:16:45,137 INFO /usr/local/bin/bench schedule
+2023-05-22 16:16:45,172 INFO /usr/local/bin/bench worker
+2023-05-22 16:57:58,609 INFO /usr/local/bin/bench start
+2023-05-22 16:57:59,227 INFO /usr/local/bin/bench schedule
+2023-05-22 16:57:59,355 INFO /usr/local/bin/bench watch
+2023-05-22 16:57:59,360 INFO /usr/local/bin/bench worker
+2023-05-22 16:57:59,362 INFO /usr/local/bin/bench serve --port 8000
+2023-05-22 18:00:01,365 INFO /usr/local/bin/bench --verbose --site all backup
+2023-05-22 23:20:34,060 INFO /usr/local/bin/bench start
+2023-05-22 23:20:34,676 INFO /usr/local/bin/bench watch
+2023-05-22 23:20:34,762 INFO /usr/local/bin/bench schedule
+2023-05-22 23:20:34,808 INFO /usr/local/bin/bench worker
+2023-05-22 23:20:34,813 INFO /usr/local/bin/bench serve --port 8000
+2023-05-23 00:00:01,732 INFO /usr/local/bin/bench --verbose --site all backup
+2023-05-23 00:16:20,178 INFO /usr/local/bin/bench start
+2023-05-23 00:16:20,771 INFO /usr/local/bin/bench watch
+2023-05-23 00:16:20,790 INFO /usr/local/bin/bench schedule
+2023-05-23 00:16:20,802 INFO /usr/local/bin/bench worker
+2023-05-23 00:16:20,821 INFO /usr/local/bin/bench serve --port 8000
+2023-05-23 06:00:01,781 INFO /usr/local/bin/bench --verbose --site all backup
+2023-05-23 08:03:37,994 INFO /usr/local/bin/bench start
+2023-05-23 08:03:38,631 INFO /usr/local/bin/bench serve --port 8000
+2023-05-23 08:03:38,641 INFO /usr/local/bin/bench schedule
+2023-05-23 08:03:38,706 INFO /usr/local/bin/bench watch
+2023-05-23 08:03:38,784 INFO /usr/local/bin/bench worker
+2023-05-23 12:00:02,016 INFO /usr/local/bin/bench --verbose --site all backup
+2023-05-23 13:23:08,743 INFO /usr/local/bin/bench start
+2023-05-23 13:23:11,403 INFO /usr/local/bin/bench start
+2023-05-23 13:23:14,019 INFO /usr/local/bin/bench start
+2023-05-23 13:27:56,620 INFO /usr/local/bin/bench start
+2023-05-23 13:27:57,448 INFO /usr/local/bin/bench schedule
+2023-05-23 13:27:57,601 INFO /usr/local/bin/bench watch
+2023-05-23 13:27:57,659 INFO /usr/local/bin/bench serve --port 8000
+2023-05-23 13:27:57,668 INFO /usr/local/bin/bench worker
+2023-05-23 14:15:50,744 INFO /usr/local/bin/bench start
+2023-05-23 14:15:52,688 INFO /usr/local/bin/bench schedule
+2023-05-23 14:15:52,690 INFO /usr/local/bin/bench worker
+2023-05-23 14:15:52,752 INFO /usr/local/bin/bench serve --port 8000
+2023-05-23 14:15:52,759 INFO /usr/local/bin/bench watch
+2023-05-23 18:00:01,816 INFO /usr/local/bin/bench --verbose --site all backup
+2023-05-24 00:00:01,477 INFO /usr/local/bin/bench --verbose --site all backup
+2023-05-24 06:00:02,106 INFO /usr/local/bin/bench --verbose --site all backup
+2023-05-24 12:00:01,421 INFO /usr/local/bin/bench --verbose --site all backup
+2023-05-24 18:00:01,799 INFO /usr/local/bin/bench --verbose --site all backup
+2023-05-25 00:00:01,216 INFO /usr/local/bin/bench --verbose --site all backup
+2023-05-25 06:00:01,832 INFO /usr/local/bin/bench --verbose --site all backup
+2023-05-25 12:00:01,497 INFO /usr/local/bin/bench --verbose --site all backup
+2023-05-25 18:00:01,959 INFO /usr/local/bin/bench --verbose --site all backup
+2023-05-26 00:00:01,527 INFO /usr/local/bin/bench --verbose --site all backup
+2023-05-26 06:00:01,334 INFO /usr/local/bin/bench --verbose --site all backup
+2023-05-26 12:00:01,836 INFO /usr/local/bin/bench --verbose --site all backup
+2023-05-26 18:00:01,269 INFO /usr/local/bin/bench --verbose --site all backup
+2023-05-27 00:00:02,077 INFO /usr/local/bin/bench --verbose --site all backup

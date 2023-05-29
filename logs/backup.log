@@ -1,0 +1,210 @@
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _fd270e1c71625b2a -p********** _fd270e1c71625b2a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./school-clinic.com/private/backups/20230518_173002-school-clinic_com-database.sql.gz
+
+Backup Summary for school-clinic.com at 2023-05-18 17:30:03.886369
+Config  : ./school-clinic.com/private/backups/20230518_173002-school-clinic_com-site_config_backup.json 94.0B
+Database: ./school-clinic.com/private/backups/20230518_173002-school-clinic_com-database.sql.gz         1.0MiB
+Backup for Site school-clinic.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _fd270e1c71625b2a -p********** _fd270e1c71625b2a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./school-clinic.com/private/backups/20230519_020002-school-clinic_com-database.sql.gz
+
+Backup Summary for school-clinic.com at 2023-05-19 02:00:03.905487
+Config  : ./school-clinic.com/private/backups/20230519_020002-school-clinic_com-site_config_backup.json 161.0B
+Database: ./school-clinic.com/private/backups/20230519_020002-school-clinic_com-database.sql.gz         1.2MiB
+Backup for Site school-clinic.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _fd270e1c71625b2a -p********** _fd270e1c71625b2a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./school-clinic.com/private/backups/20230519_080002-school-clinic_com-database.sql.gz
+
+Backup Summary for school-clinic.com at 2023-05-19 08:00:03.949934
+Config  : ./school-clinic.com/private/backups/20230519_080002-school-clinic_com-site_config_backup.json 161.0B
+Database: ./school-clinic.com/private/backups/20230519_080002-school-clinic_com-database.sql.gz         1.2MiB
+Backup for Site school-clinic.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _fd270e1c71625b2a -p********** _fd270e1c71625b2a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./school-clinic.com/private/backups/20230519_140002-school-clinic_com-database.sql.gz
+
+Backup Summary for school-clinic.com at 2023-05-19 14:00:05.021011
+Config  : ./school-clinic.com/private/backups/20230519_140002-school-clinic_com-site_config_backup.json 161.0B
+Database: ./school-clinic.com/private/backups/20230519_140002-school-clinic_com-database.sql.gz         1.2MiB
+Backup for Site school-clinic.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _fd270e1c71625b2a -p********** _fd270e1c71625b2a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./school-clinic.com/private/backups/20230519_200002-school-clinic_com-database.sql.gz
+
+Backup Summary for school-clinic.com at 2023-05-19 20:00:04.052935
+Config  : ./school-clinic.com/private/backups/20230519_200002-school-clinic_com-site_config_backup.json 161.0B
+Database: ./school-clinic.com/private/backups/20230519_200002-school-clinic_com-database.sql.gz         1.2MiB
+Backup for Site school-clinic.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _fd270e1c71625b2a -p********** _fd270e1c71625b2a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./school-clinic.com/private/backups/20230520_020002-school-clinic_com-database.sql.gz
+
+Backup Summary for school-clinic.com at 2023-05-20 02:00:04.025834
+Config  : ./school-clinic.com/private/backups/20230520_020002-school-clinic_com-site_config_backup.json 161.0B
+Database: ./school-clinic.com/private/backups/20230520_020002-school-clinic_com-database.sql.gz         1.2MiB
+Backup for Site school-clinic.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _fd270e1c71625b2a -p********** _fd270e1c71625b2a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./school-clinic.com/private/backups/20230520_080002-school-clinic_com-database.sql.gz
+
+Backup Summary for school-clinic.com at 2023-05-20 08:00:03.976930
+Config  : ./school-clinic.com/private/backups/20230520_080002-school-clinic_com-site_config_backup.json 161.0B
+Database: ./school-clinic.com/private/backups/20230520_080002-school-clinic_com-database.sql.gz         1.2MiB
+Backup for Site school-clinic.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _fd270e1c71625b2a -p********** _fd270e1c71625b2a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./school-clinic.com/private/backups/20230520_140002-school-clinic_com-database.sql.gz
+
+Backup Summary for school-clinic.com at 2023-05-20 14:00:03.796975
+Config  : ./school-clinic.com/private/backups/20230520_140002-school-clinic_com-site_config_backup.json 161.0B
+Database: ./school-clinic.com/private/backups/20230520_140002-school-clinic_com-database.sql.gz         1.2MiB
+Backup for Site school-clinic.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _fd270e1c71625b2a -p********** _fd270e1c71625b2a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./school-clinic.com/private/backups/20230520_200003-school-clinic_com-database.sql.gz
+
+Backup Summary for school-clinic.com at 2023-05-20 20:00:04.693764
+Config  : ./school-clinic.com/private/backups/20230520_200003-school-clinic_com-site_config_backup.json 161.0B
+Database: ./school-clinic.com/private/backups/20230520_200003-school-clinic_com-database.sql.gz         1.2MiB
+Backup for Site school-clinic.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _fd270e1c71625b2a -p********** _fd270e1c71625b2a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./school-clinic.com/private/backups/20230521_020003-school-clinic_com-database.sql.gz
+
+Backup Summary for school-clinic.com at 2023-05-21 02:00:05.639913
+Config  : ./school-clinic.com/private/backups/20230521_020003-school-clinic_com-site_config_backup.json 161.0B
+Database: ./school-clinic.com/private/backups/20230521_020003-school-clinic_com-database.sql.gz         1.3MiB
+Backup for Site school-clinic.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _fd270e1c71625b2a -p********** _fd270e1c71625b2a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./school-clinic.com/private/backups/20230521_080003-school-clinic_com-database.sql.gz
+
+Backup Summary for school-clinic.com at 2023-05-21 08:00:04.744871
+Config  : ./school-clinic.com/private/backups/20230521_080003-school-clinic_com-site_config_backup.json 161.0B
+Database: ./school-clinic.com/private/backups/20230521_080003-school-clinic_com-database.sql.gz         1.3MiB
+Backup for Site school-clinic.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _fd270e1c71625b2a -p********** _fd270e1c71625b2a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./school-clinic.com/private/backups/20230521_140003-school-clinic_com-database.sql.gz
+
+Backup Summary for school-clinic.com at 2023-05-21 14:00:04.626695
+Config  : ./school-clinic.com/private/backups/20230521_140003-school-clinic_com-site_config_backup.json 161.0B
+Database: ./school-clinic.com/private/backups/20230521_140003-school-clinic_com-database.sql.gz         1.3MiB
+Backup for Site school-clinic.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _fd270e1c71625b2a -p********** _fd270e1c71625b2a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./school-clinic.com/private/backups/20230521_200002-school-clinic_com-database.sql.gz
+
+Backup Summary for school-clinic.com at 2023-05-21 20:00:04.583503
+Config  : ./school-clinic.com/private/backups/20230521_200002-school-clinic_com-site_config_backup.json 161.0B
+Database: ./school-clinic.com/private/backups/20230521_200002-school-clinic_com-database.sql.gz         1.3MiB
+Backup for Site school-clinic.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _fd270e1c71625b2a -p********** _fd270e1c71625b2a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./school-clinic.com/private/backups/20230522_020002-school-clinic_com-database.sql.gz
+
+Backup Summary for school-clinic.com at 2023-05-22 02:00:04.541218
+Config  : ./school-clinic.com/private/backups/20230522_020002-school-clinic_com-site_config_backup.json 161.0B
+Database: ./school-clinic.com/private/backups/20230522_020002-school-clinic_com-database.sql.gz         1.3MiB
+Backup for Site school-clinic.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _fd270e1c71625b2a -p********** _fd270e1c71625b2a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./school-clinic.com/private/backups/20230522_080002-school-clinic_com-database.sql.gz
+
+Backup Summary for school-clinic.com at 2023-05-22 08:00:04.830345
+Config  : ./school-clinic.com/private/backups/20230522_080002-school-clinic_com-site_config_backup.json 161.0B
+Database: ./school-clinic.com/private/backups/20230522_080002-school-clinic_com-database.sql.gz         1.3MiB
+Backup for Site school-clinic.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _fd270e1c71625b2a -p********** _fd270e1c71625b2a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./school-clinic.com/private/backups/20230522_140002-school-clinic_com-database.sql.gz
+
+Backup Summary for school-clinic.com at 2023-05-22 14:00:03.733844
+Config  : ./school-clinic.com/private/backups/20230522_140002-school-clinic_com-site_config_backup.json 161.0B
+Database: ./school-clinic.com/private/backups/20230522_140002-school-clinic_com-database.sql.gz         1.3MiB
+Backup for Site school-clinic.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _fd270e1c71625b2a -p********** _fd270e1c71625b2a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./school-clinic.com/private/backups/20230522_200003-school-clinic_com-database.sql.gz
+
+Backup Summary for school-clinic.com at 2023-05-22 20:00:04.689516
+Config  : ./school-clinic.com/private/backups/20230522_200003-school-clinic_com-site_config_backup.json 161.0B
+Database: ./school-clinic.com/private/backups/20230522_200003-school-clinic_com-database.sql.gz         1.3MiB
+Backup for Site school-clinic.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _fd270e1c71625b2a -p********** _fd270e1c71625b2a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./school-clinic.com/private/backups/20230523_020002-school-clinic_com-database.sql.gz
+
+Backup Summary for school-clinic.com at 2023-05-23 02:00:04.357135
+Config  : ./school-clinic.com/private/backups/20230523_020002-school-clinic_com-site_config_backup.json 161.0B
+Database: ./school-clinic.com/private/backups/20230523_020002-school-clinic_com-database.sql.gz         1.3MiB
+Backup for Site school-clinic.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _fd270e1c71625b2a -p********** _fd270e1c71625b2a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./school-clinic.com/private/backups/20230523_080002-school-clinic_com-database.sql.gz
+
+Backup Summary for school-clinic.com at 2023-05-23 08:00:04.462838
+Config  : ./school-clinic.com/private/backups/20230523_080002-school-clinic_com-site_config_backup.json 161.0B
+Database: ./school-clinic.com/private/backups/20230523_080002-school-clinic_com-database.sql.gz         1.3MiB
+Backup for Site school-clinic.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _fd270e1c71625b2a -p********** _fd270e1c71625b2a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./school-clinic.com/private/backups/20230523_140002-school-clinic_com-database.sql.gz
+
+Backup Summary for school-clinic.com at 2023-05-23 14:00:04.451917
+Config  : ./school-clinic.com/private/backups/20230523_140002-school-clinic_com-site_config_backup.json 161.0B
+Database: ./school-clinic.com/private/backups/20230523_140002-school-clinic_com-database.sql.gz         1.4MiB
+Backup for Site school-clinic.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _fd270e1c71625b2a -p********** _fd270e1c71625b2a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./school-clinic.com/private/backups/20230523_200002-school-clinic_com-database.sql.gz
+
+Backup Summary for school-clinic.com at 2023-05-23 20:00:04.665252
+Config  : ./school-clinic.com/private/backups/20230523_200002-school-clinic_com-site_config_backup.json 161.0B
+Database: ./school-clinic.com/private/backups/20230523_200002-school-clinic_com-database.sql.gz         1.4MiB
+Backup for Site school-clinic.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _fd270e1c71625b2a -p********** _fd270e1c71625b2a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./school-clinic.com/private/backups/20230524_020002-school-clinic_com-database.sql.gz
+
+Backup Summary for school-clinic.com at 2023-05-24 02:00:05.122575
+Config  : ./school-clinic.com/private/backups/20230524_020002-school-clinic_com-site_config_backup.json 161.0B
+Database: ./school-clinic.com/private/backups/20230524_020002-school-clinic_com-database.sql.gz         1.4MiB
+Backup for Site school-clinic.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _fd270e1c71625b2a -p********** _fd270e1c71625b2a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./school-clinic.com/private/backups/20230524_080002-school-clinic_com-database.sql.gz
+
+Backup Summary for school-clinic.com at 2023-05-24 08:00:04.717708
+Config  : ./school-clinic.com/private/backups/20230524_080002-school-clinic_com-site_config_backup.json 161.0B
+Database: ./school-clinic.com/private/backups/20230524_080002-school-clinic_com-database.sql.gz         1.4MiB
+Backup for Site school-clinic.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _fd270e1c71625b2a -p********** _fd270e1c71625b2a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./school-clinic.com/private/backups/20230524_140003-school-clinic_com-database.sql.gz
+
+Backup Summary for school-clinic.com at 2023-05-24 14:00:05.071266
+Config  : ./school-clinic.com/private/backups/20230524_140003-school-clinic_com-site_config_backup.json 161.0B
+Database: ./school-clinic.com/private/backups/20230524_140003-school-clinic_com-database.sql.gz         1.4MiB
+Backup for Site school-clinic.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _fd270e1c71625b2a -p********** _fd270e1c71625b2a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./school-clinic.com/private/backups/20230524_200002-school-clinic_com-database.sql.gz
+
+Backup Summary for school-clinic.com at 2023-05-24 20:00:04.464965
+Config  : ./school-clinic.com/private/backups/20230524_200002-school-clinic_com-site_config_backup.json 161.0B
+Database: ./school-clinic.com/private/backups/20230524_200002-school-clinic_com-database.sql.gz         1.4MiB
+Backup for Site school-clinic.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _fd270e1c71625b2a -p********** _fd270e1c71625b2a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./school-clinic.com/private/backups/20230525_020002-school-clinic_com-database.sql.gz
+
+Backup Summary for school-clinic.com at 2023-05-25 02:00:04.879556
+Config  : ./school-clinic.com/private/backups/20230525_020002-school-clinic_com-site_config_backup.json 161.0B
+Database: ./school-clinic.com/private/backups/20230525_020002-school-clinic_com-database.sql.gz         1.4MiB
+Backup for Site school-clinic.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _fd270e1c71625b2a -p********** _fd270e1c71625b2a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./school-clinic.com/private/backups/20230525_080002-school-clinic_com-database.sql.gz
+
+Backup Summary for school-clinic.com at 2023-05-25 08:00:04.486006
+Config  : ./school-clinic.com/private/backups/20230525_080002-school-clinic_com-site_config_backup.json 161.0B
+Database: ./school-clinic.com/private/backups/20230525_080002-school-clinic_com-database.sql.gz         1.4MiB
+Backup for Site school-clinic.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _fd270e1c71625b2a -p********** _fd270e1c71625b2a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./school-clinic.com/private/backups/20230525_140003-school-clinic_com-database.sql.gz
+
+Backup Summary for school-clinic.com at 2023-05-25 14:00:05.136175
+Config  : ./school-clinic.com/private/backups/20230525_140003-school-clinic_com-site_config_backup.json 161.0B
+Database: ./school-clinic.com/private/backups/20230525_140003-school-clinic_com-database.sql.gz         1.4MiB
+Backup for Site school-clinic.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _fd270e1c71625b2a -p********** _fd270e1c71625b2a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./school-clinic.com/private/backups/20230525_200002-school-clinic_com-database.sql.gz
+
+Backup Summary for school-clinic.com at 2023-05-25 20:00:04.602382
+Config  : ./school-clinic.com/private/backups/20230525_200002-school-clinic_com-site_config_backup.json 161.0B
+Database: ./school-clinic.com/private/backups/20230525_200002-school-clinic_com-database.sql.gz         1.4MiB
+Backup for Site school-clinic.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _fd270e1c71625b2a -p********** _fd270e1c71625b2a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./school-clinic.com/private/backups/20230526_020003-school-clinic_com-database.sql.gz
+
+Backup Summary for school-clinic.com at 2023-05-26 02:00:05.110729
+Config  : ./school-clinic.com/private/backups/20230526_020003-school-clinic_com-site_config_backup.json 161.0B
+Database: ./school-clinic.com/private/backups/20230526_020003-school-clinic_com-database.sql.gz         1.4MiB
+Backup for Site school-clinic.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _fd270e1c71625b2a -p********** _fd270e1c71625b2a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./school-clinic.com/private/backups/20230526_080003-school-clinic_com-database.sql.gz
+
+Backup Summary for school-clinic.com at 2023-05-26 08:00:05.911736
+Config  : ./school-clinic.com/private/backups/20230526_080003-school-clinic_com-site_config_backup.json 161.0B
+Database: ./school-clinic.com/private/backups/20230526_080003-school-clinic_com-database.sql.gz         1.4MiB
+Backup for Site school-clinic.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _fd270e1c71625b2a -p********** _fd270e1c71625b2a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./school-clinic.com/private/backups/20230526_140002-school-clinic_com-database.sql.gz
+
+Backup Summary for school-clinic.com at 2023-05-26 14:00:04.455736
+Config  : ./school-clinic.com/private/backups/20230526_140002-school-clinic_com-site_config_backup.json 161.0B
+Database: ./school-clinic.com/private/backups/20230526_140002-school-clinic_com-database.sql.gz         1.5MiB
+Backup for Site school-clinic.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _fd270e1c71625b2a -p********** _fd270e1c71625b2a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./school-clinic.com/private/backups/20230526_200002-school-clinic_com-database.sql.gz
+
+Backup Summary for school-clinic.com at 2023-05-26 20:00:04.924505
+Config  : ./school-clinic.com/private/backups/20230526_200002-school-clinic_com-site_config_backup.json 161.0B
+Database: ./school-clinic.com/private/backups/20230526_200002-school-clinic_com-database.sql.gz         1.5MiB
+Backup for Site school-clinic.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _fd270e1c71625b2a -p********** _fd270e1c71625b2a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./school-clinic.com/private/backups/20230527_020002-school-clinic_com-database.sql.gz
+
+Backup Summary for school-clinic.com at 2023-05-27 02:00:05.607571
+Config  : ./school-clinic.com/private/backups/20230527_020002-school-clinic_com-site_config_backup.json 161.0B
+Database: ./school-clinic.com/private/backups/20230527_020002-school-clinic_com-database.sql.gz         1.5MiB
+Backup for Site school-clinic.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _fd270e1c71625b2a -p********** _fd270e1c71625b2a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./school-clinic.com/private/backups/20230527_080003-school-clinic_com-database.sql.gz
+
+Backup Summary for school-clinic.com at 2023-05-27 08:00:05.160010
+Config  : ./school-clinic.com/private/backups/20230527_080003-school-clinic_com-site_config_backup.json 161.0B
+Database: ./school-clinic.com/private/backups/20230527_080003-school-clinic_com-database.sql.gz         1.5MiB
+Backup for Site school-clinic.com has been successfully completed

@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "apps/frappe/frappe/desk/page/setup_wizard/setup_wizard.py", line 82, in process_setup_stages
+    task.get("fn")(task.get("args"))
+  File "apps/erpnext/erpnext/setup/setup_wizard/setup_wizard.py", line 60, in setup_defaults
+    fixtures.install_defaults(frappe._dict(args))
+  File "apps/erpnext/erpnext/setup/setup_wizard/operations/install_fixtures.py", line 498, in install_defaults
+    set_global_defaults(args)
+  File "apps/erpnext/erpnext/setup/setup_wizard/operations/install_fixtures.py", line 519, in set_global_defaults
+    global_defaults.save()
+  File "apps/frappe/frappe/model/document.py", line 305, in save
+    return self._save(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 338, in _save
+    self._validate_links()
+  File "apps/frappe/frappe/model/document.py", line 882, in _validate_links
+    frappe.throw(_("Could not find {0}").format(msg), frappe.LinkValidationError)
+  File "apps/frappe/frappe/__init__.py", line 525, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 493, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.LinkValidationError: Could not find Default Company: Xavier University
+{"language": "English", "country": "Philippines", "timezone": "Asia/Manila", "currency": "PHP", "enable_telemetry": 0, "full_name": "Nurse-Admin-01", "email": "Admin.Nurse@gmail.com", "password": "Nurse-Admin-01", "company_name": "Xavier University", "company_abbr": "XU", "company_tagline": "Clinic System", "bank_account": "Bank of Ph", "chart_of_accounts": "Standard", "fy_start_date": "2023-01-01", "fy_end_date": "2023-12-31", "name": "Admin.Nurse@gmail.com"}
