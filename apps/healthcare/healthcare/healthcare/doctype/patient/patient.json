@@ -1,0 +1,621 @@
+{
+ "actions": [],
+ "allow_events_in_timeline": 1,
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "format: {patient_name} - {school_id}",
+ "creation": "2017-01-23 14:03:49.084370",
+ "description": "Patient",
+ "doctype": "DocType",
+ "document_type": "Document",
+ "engine": "InnoDB",
+ "field_order": [
+  "basic_info",
+  "uid",
+  "first_name",
+  "middle_name",
+  "last_name",
+  "patient_name",
+  "dob",
+  "blood_group",
+  "age_html",
+  "column_break_14",
+  "status",
+  "school_id",
+  "occupation",
+  "sex",
+  "invite_user",
+  "user_id",
+  "image",
+  "section_break_tnhlm",
+  "person_to_notify",
+  "column_break_xcbbl",
+  "contact_person_number",
+  "more_info",
+  "home_address",
+  "mobile",
+  "email",
+  "phone",
+  "customer",
+  "column_break_1pjtj",
+  "marital_status",
+  "nationality",
+  "religion",
+  "column_break_4l9ur",
+  "patient_details",
+  "dashboard_tab",
+  "address_and_contact_tab",
+  "address_contacts",
+  "address_html",
+  "column_break_22",
+  "medical_history_tab",
+  "personal_and_social_history",
+  "column_break_25",
+  "allergy_medical_and_surgical_history",
+  "allergies",
+  "medication",
+  "column_break_20",
+  "medical_history",
+  "surgical_history",
+  "risk_factors",
+  "tobacco_past_use",
+  "tobacco_current_use",
+  "alcohol_past_use",
+  "alcohol_current_use",
+  "column_break_32",
+  "surrounding_factors",
+  "other_risk_factors",
+  "covid19_vaccination_tab",
+  "vaccine_dose_section",
+  "1st_dose",
+  "2nd_dose",
+  "column_break_ui3g5",
+  "1st_dose_date",
+  "2nd_dose_date",
+  "column_break_alrf3",
+  "booster_shots_section",
+  "1st_booster",
+  "2nd_booster",
+  "column_break_pnwme",
+  "1st_booster_date",
+  "2nd_booster_date",
+  "column_break_lrmsv"
+ ],
+ "fields": [
+  {
+   "fieldname": "basic_info",
+   "fieldtype": "Section Break",
+   "label": "Patient Basic Details",
+   "oldfieldtype": "Section Break",
+   "options": "fa fa-user"
+  },
+  {
+   "bold": 1,
+   "fieldname": "patient_name",
+   "fieldtype": "Data",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Full Name",
+   "no_copy": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "sex",
+   "fieldtype": "Link",
+   "in_preview": 1,
+   "label": "Gender",
+   "options": "Gender",
+   "reqd": 1
+  },
+  {
+   "bold": 1,
+   "fieldname": "blood_group",
+   "fieldtype": "Select",
+   "in_preview": 1,
+   "label": "Blood Type",
+   "no_copy": 1,
+   "options": "\nA Positive\nA Negative\nAB Positive\nAB Negative\nB Positive\nB Negative\nO Positive\nO Negative",
+   "reqd": 1
+  },
+  {
+   "bold": 1,
+   "fieldname": "dob",
+   "fieldtype": "Date",
+   "in_preview": 1,
+   "label": "Date of birth",
+   "no_copy": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "age_html",
+   "fieldtype": "HTML",
+   "label": "Age",
+   "no_copy": 1,
+   "print_hide": 1,
+   "read_only": 1,
+   "report_hide": 1
+  },
+  {
+   "default": "Active",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "in_filter": 1,
+   "in_list_view": 1,
+   "label": "Status",
+   "no_copy": 1,
+   "options": "Active\nDisabled",
+   "print_hide": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "in_preview": 1,
+   "label": "Patient Image",
+   "no_copy": 1,
+   "print_hide": 1,
+   "width": "50%"
+  },
+  {
+   "fieldname": "column_break_14",
+   "fieldtype": "Column Break"
+  },
+  {
+   "bold": 1,
+   "fieldname": "mobile",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Mobile Number",
+   "no_copy": 1,
+   "options": "Phone",
+   "reqd": 1
+  },
+  {
+   "bold": 1,
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "no_copy": 1,
+   "options": "Email",
+   "reqd": 1
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Home Phone",
+   "no_copy": 1,
+   "options": "Phone"
+  },
+  {
+   "fieldname": "allergy_medical_and_surgical_history",
+   "fieldtype": "Section Break",
+   "label": "Allergies, Medical and Surgical History"
+  },
+  {
+   "fieldname": "allergies",
+   "fieldtype": "Small Text",
+   "ignore_xss_filter": 1,
+   "label": "Allergies",
+   "no_copy": 1
+  },
+  {
+   "fieldname": "medication",
+   "fieldtype": "Small Text",
+   "ignore_xss_filter": 1,
+   "label": "Medication",
+   "no_copy": 1
+  },
+  {
+   "fieldname": "column_break_20",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "medical_history",
+   "fieldtype": "Small Text",
+   "ignore_xss_filter": 1,
+   "label": "Medical History",
+   "no_copy": 1
+  },
+  {
+   "fieldname": "surgical_history",
+   "fieldtype": "Small Text",
+   "ignore_xss_filter": 1,
+   "label": "Surgical History",
+   "no_copy": 1
+  },
+  {
+   "fieldname": "personal_and_social_history",
+   "fieldtype": "Section Break",
+   "label": "Personal and Social History"
+  },
+  {
+   "fieldname": "occupation",
+   "fieldtype": "Select",
+   "ignore_xss_filter": 1,
+   "label": "School Standing (Student/Employee)",
+   "no_copy": 1,
+   "options": "\nStudent\nEmployee",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_25",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "marital_status",
+   "fieldtype": "Select",
+   "label": "Civil Status",
+   "no_copy": 1,
+   "options": "\nSingle\nMarried\nDivorced\nWidow"
+  },
+  {
+   "fieldname": "risk_factors",
+   "fieldtype": "Section Break",
+   "label": "Risk Factors"
+  },
+  {
+   "fieldname": "tobacco_past_use",
+   "fieldtype": "Data",
+   "ignore_xss_filter": 1,
+   "label": "Tobacco Consumption (Past)",
+   "no_copy": 1
+  },
+  {
+   "fieldname": "tobacco_current_use",
+   "fieldtype": "Data",
+   "ignore_xss_filter": 1,
+   "label": "Tobacco Consumption (Present)",
+   "no_copy": 1
+  },
+  {
+   "fieldname": "alcohol_past_use",
+   "fieldtype": "Data",
+   "ignore_xss_filter": 1,
+   "label": "Alcohol Consumption (Past)",
+   "no_copy": 1
+  },
+  {
+   "fieldname": "alcohol_current_use",
+   "fieldtype": "Data",
+   "ignore_user_permissions": 1,
+   "label": "Alcohol Consumption (Present)",
+   "no_copy": 1
+  },
+  {
+   "fieldname": "column_break_32",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "surrounding_factors",
+   "fieldtype": "Small Text",
+   "ignore_xss_filter": 1,
+   "label": "Occupational Hazards and Environmental Factors",
+   "no_copy": 1
+  },
+  {
+   "fieldname": "other_risk_factors",
+   "fieldtype": "Small Text",
+   "ignore_xss_filter": 1,
+   "label": "Other Risk Factors",
+   "no_copy": 1
+  },
+  {
+   "collapsible_depends_on": "patient_details",
+   "fieldname": "more_info",
+   "fieldtype": "Section Break",
+   "label": "More Information",
+   "oldfieldtype": "Section Break",
+   "options": "fa fa-file-text"
+  },
+  {
+   "description": "Additional information regarding the patient",
+   "fieldname": "patient_details",
+   "fieldtype": "Text",
+   "ignore_xss_filter": 1,
+   "label": "Patient Details",
+   "no_copy": 1
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name",
+   "no_copy": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name",
+   "no_copy": 1,
+   "oldfieldtype": "Data",
+   "reqd": 1
+  },
+  {
+   "fieldname": "middle_name",
+   "fieldtype": "Data",
+   "label": "Middle Name (optional)",
+   "no_copy": 1
+  },
+  {
+   "depends_on": "eval:!doc.__islocal",
+   "fieldname": "address_contacts",
+   "fieldtype": "Section Break",
+   "label": "Address and Contact",
+   "options": "fa fa-map-marker"
+  },
+  {
+   "fieldname": "address_html",
+   "fieldtype": "HTML",
+   "label": "Address HTML",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_22",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "1",
+   "fieldname": "invite_user",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Invite as User",
+   "no_copy": 1,
+   "read_only": 1,
+   "read_only_depends_on": "eval: doc.user_id"
+  },
+  {
+   "fieldname": "user_id",
+   "fieldtype": "Read Only",
+   "label": "User ID",
+   "no_copy": 1,
+   "options": "User"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "bold": 1,
+   "fieldname": "uid",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Identification Number (UID)",
+   "read_only": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "dashboard_tab",
+   "fieldtype": "Tab Break",
+   "label": "Dashboard",
+   "show_dashboard": 1
+  },
+  {
+   "depends_on": "eval:!doc.__islocal",
+   "fieldname": "address_and_contact_tab",
+   "fieldtype": "Tab Break",
+   "label": "Address & Contact"
+  },
+  {
+   "fieldname": "medical_history_tab",
+   "fieldtype": "Tab Break",
+   "label": "Medical History"
+  },
+  {
+   "fieldname": "school_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "School ID",
+   "no_copy": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "home_address",
+   "fieldtype": "Data",
+   "label": "Home Address",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_4l9ur",
+   "fieldtype": "Section Break",
+   "label": "Other information"
+  },
+  {
+   "fieldname": "person_to_notify",
+   "fieldtype": "Data",
+   "label": "Person to Contact",
+   "reqd": 1
+  },
+  {
+   "fieldname": "nationality",
+   "fieldtype": "Data",
+   "label": "Nationality"
+  },
+  {
+   "fieldname": "religion",
+   "fieldtype": "Data",
+   "label": "Religion"
+  },
+  {
+   "fieldname": "contact_person_number",
+   "fieldtype": "Data",
+   "label": "Contact Person's Number"
+  },
+  {
+   "fieldname": "section_break_tnhlm",
+   "fieldtype": "Section Break",
+   "label": "Incase of Emergency"
+  },
+  {
+   "fieldname": "column_break_xcbbl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_1pjtj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "covid19_vaccination_tab",
+   "fieldtype": "Tab Break",
+   "label": "Covid19 Vaccination"
+  },
+  {
+   "fieldname": "1st_dose",
+   "fieldtype": "Data",
+   "label": "1st Dose"
+  },
+  {
+   "fieldname": "2nd_dose",
+   "fieldtype": "Data",
+   "label": "2nd Dose"
+  },
+  {
+   "fieldname": "column_break_ui3g5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "1st_dose_date",
+   "fieldtype": "Date",
+   "label": "1st Dose Date"
+  },
+  {
+   "fieldname": "2nd_dose_date",
+   "fieldtype": "Date",
+   "label": "2nd Dose Date"
+  },
+  {
+   "fieldname": "booster_shots_section",
+   "fieldtype": "Section Break",
+   "label": "Booster Shots"
+  },
+  {
+   "fieldname": "1st_booster",
+   "fieldtype": "Data",
+   "label": "1st Booster"
+  },
+  {
+   "fieldname": "2nd_booster",
+   "fieldtype": "Data",
+   "label": "2nd Booster"
+  },
+  {
+   "fieldname": "column_break_pnwme",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "1st_booster_date",
+   "fieldtype": "Date",
+   "label": "1st Booster Date"
+  },
+  {
+   "fieldname": "2nd_booster_date",
+   "fieldtype": "Date",
+   "label": "2nd Booster Date"
+  },
+  {
+   "fieldname": "column_break_lrmsv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_alrf3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "vaccine_dose_section",
+   "fieldtype": "Section Break",
+   "label": "Vaccine Dose"
+  },
+  {
+   "default": "0",
+   "fieldname": "customer",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "ignore_user_permissions": 1,
+   "label": "Customer",
+   "print_hide": 1,
+   "read_only": 1,
+   "report_hide": 1
+  }
+ ],
+ "icon": "fa fa-user",
+ "image_field": "image",
+ "links": [],
+ "max_attachments": 50,
+ "modified": "2023-05-23 15:31:22.450367",
+ "modified_by": "Administrator",
+ "module": "Healthcare",
+ "name": "Patient",
+ "name_case": "Title Case",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Physician",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Laboratory User",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Nursing User",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "if_owner": 1,
+   "read": 1,
+   "role": "Patient",
+   "select": 1,
+   "set_user_permissions": 1,
+   "write": 1
+  }
+ ],
+ "restrict_to_domain": "Healthcare",
+ "search_fields": "patient_name,mobile,email,phone,uid",
+ "show_name_in_global_search": 1,
+ "sort_field": "modified",
+ "sort_order": "ASC",
+ "states": [],
+ "title_field": "patient_name",
+ "track_changes": 1
+}

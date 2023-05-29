@@ -1,0 +1,31 @@
+{
+ "content": null,
+ "creation": "2018-08-08 17:09:13.816199",
+ "docstatus": 0,
+ "doctype": "Page",
+ "icon": "",
+ "idx": 4,
+ "modified": "2023-05-23 16:11:15.191508",
+ "modified_by": "Administrator",
+ "module": "Healthcare",
+ "name": "patient_history",
+ "owner": "Administrator",
+ "page_name": "patient_history",
+ "restrict_to_domain": "Healthcare",
+ "roles": [
+  {
+   "role": "Healthcare Administrator"
+  },
+  {
+   "role": "Physician"
+  },
+  {
+   "role": "Patient"
+  }
+ ],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0,
+ "title": "Patient History"
+}

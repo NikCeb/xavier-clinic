@@ -1,0 +1,47 @@
+{
+ "cards": [
+  {
+   "card": "Total Patients"
+  },
+  {
+   "card": "Open Appointments"
+  },
+  {
+   "card": "Total Encounters"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "Patient Appointments",
+   "width": "Full"
+  },
+  {
+   "chart": "Symptoms",
+   "width": "Half"
+  },
+  {
+   "chart": "Diagnoses",
+   "width": "Half"
+  },
+  {
+   "chart": "Department wise Patient Appointments",
+   "width": "Full"
+  },
+  {
+   "chart": "Encounters",
+   "width": "Half"
+  }
+ ],
+ "creation": "2020-07-14 18:17:54.823311",
+ "dashboard_name": "Healthcare",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 2,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2023-05-23 11:23:12.822284",
+ "modified_by": "Administrator",
+ "module": "Healthcare",
+ "name": "Healthcare",
+ "owner": "Administrator"
+}
